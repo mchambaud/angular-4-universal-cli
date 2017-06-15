@@ -1,6 +1,6 @@
 import { ReleaseTourPage } from './app.po';
 
-describe('release-tour App', () => {
+describe('App', () => {
   let page: ReleaseTourPage;
 
   beforeEach(() => {
