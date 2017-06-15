@@ -1,0 +1,26 @@
+# package control
+node_modules
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# WebStorm
+.idea/jsLibraryMappings.xml
+.idea/workspace.xml
+.idea/watcherTasks.xml
+.idea/shelf
+
+# misc
+.sass-cache
+coverage
+npm-debug.log
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
