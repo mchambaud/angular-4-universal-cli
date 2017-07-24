@@ -29,7 +29,7 @@ app.get('/health', (req, res) => {
   res.sendStatus(200);
 });
 
-app.get('*.*', express.static(join(__dirname, '..', 'dist')));
+app.get('*.*', express.static(join(__dirname, '../../..', 'dist')));
 
 app.get('*', (req, res) => {
   res.render('index', { req });
